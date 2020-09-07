@@ -19,8 +19,6 @@ import KYAdminView from "./KYAdminView";
 import KYHomeView from "./KYHomeView";
 import KYCellLoterryView from "./KYCellLotteryView";
 
-import { SERVER_BASIC_URL, REQUEST_TYPE, RESPONSE_TYPE } from "./KYUtil";
-
 export const VIEW_TABLE = {'home':0, 'lottery':1, 'admin':2};
 
 export default class KYApp extends Component {

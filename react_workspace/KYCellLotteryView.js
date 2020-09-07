@@ -7,6 +7,7 @@ import {
   Alert,
 } from 'react-native';
 import axios from 'axios';
+import { SERVER_BASIC_URL, REQUEST_TYPE, RESPONSE_TYPE } from "./KYUtil";
 
 // 셀뽑기 tab view
 class KYCellLotteryView extends Component {

@@ -6,6 +6,7 @@ import {
   Switch,
 } from 'react-native';
 import axios from 'axios';
+import { SERVER_BASIC_URL, REQUEST_TYPE, RESPONSE_TYPE } from "./KYUtil";
 
 // admin view (관리용)
 class KYAdminView extends Component {
