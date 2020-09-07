@@ -1,0 +1,16 @@
+
+export const SERVER_BASIC_URL = 'http://52.141.63.75:5425/';
+
+export const RESPONSE_TYPE = {
+  'FAIL':0,
+  'SUCCESS':1,
+  'NOT_ACTIVATED':2,
+  'ALREADY_EXIST':3,
+};
+
+export const REQUEST_TYPE = {
+  'TURN_ON_CELL_SELECTION': 0,
+  'TURN_OFF_CELL_SELECTION': 1,
+  'SELECT_MY_CELL': 2,
+  'CHECK_NUM_GROUPS': 3,
+};
